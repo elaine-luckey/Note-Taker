@@ -21,3 +21,6 @@ Edward Kim (referenced places with help in the code comments)
 
 ## License: 
 Please refer to the LICENSE in the repo
+
+## Note About Repo:
+This repo was re-created due to a folder/file structure issue on the original repo (there are less commits than originally intended due to the re-creation).
