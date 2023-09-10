@@ -5,8 +5,7 @@ UNC Chapel Hill Challenge 11
 To create an application called Note Taker that can be used to write and save notes. Express.js is used fo r the back end and will save and retrieve note data from a JSON file. The front-end of this application was provided and the purpose was to create a back end of the app that will speak to the front end. At the end, this application will be deployed to Heroku. 
 
 ## Heroku Link
-https://secure-ridge-53837-622e82ee57d5.herokuapp.com/
-
+https://elaine-luckey-note-taker-app-83d1afc08e14.herokuapp.com/
 
 ## Screenshots of Deployed Application
 <img width="1280" alt="image" src="https://github.com/elaine-luckey/Note-Taker/assets/134161776/a5f66e3e-4b6e-427b-80d5-3e81a3a9fcb2">
