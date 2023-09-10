@@ -1,34 +1,44 @@
 {
-    "notes": [
-      {
-        "title": "What is Hardware",
-        "text": "The part of a computer that you can kick.",
-        "id": "0"
-      },
-      {
-        "title": "Object-Oriented",
-        "text": "What's the object-oriented way to become wealthy?... Inheritance",
-        "id": "1"
-      },
-      {
-        "title": "Why did the programmer quit his job?",
-        "text": "Because he didn't get arrays.",
-        "id": "2"
-      },
-      {
-        "title": "Chuck Norris",
-        "text": "Chuck Norris writes code... that optimizes itself.",
-        "id": "3"
-      },
-      {
-        "title": "What is an Algorithm?",
-        "text": "A word used by programmers when they do not want to explain what they did.",
-        "id": "4"
-      },
-      {
-        "title": "Hide & Seek Champion",
-        "text": "; .... Since 1958.",
-        "id": "5"
-      }
-    ]
-  }
+  "notesArr": [
+    {
+      "title": "What is Hardware",
+      "text": "The part of a computer that you can kick.",
+      "id": 0
+    },
+    {
+      "title": "Object-Oriented",
+      "text": "What's the object-oriented way to become wealthy?... Inheritance",
+      "id": 1
+    },
+    {
+      "title": "Why did the programmer quit his job?",
+      "text": "Because he didn't get arrays.",
+      "id": 2
+    },
+    {
+      "title": "Chuck Norris",
+      "text": "Chuck Norris writes code... that optimizes itself.",
+      "id": 3
+    },
+    {
+      "title": "What is an Algorithm?",
+      "text": "A word used by programmers when they do not want to explain what they did.",
+      "id": 4
+    },
+    {
+      "title": "Hide & Seek Champion",
+      "text": "; .... Since 1958.",
+      "id": 5
+    },
+    {
+      "title": "Test",
+      "text": "test",
+      "id": "6"
+    },
+    {
+      "title": "Testing new notes",
+      "text": "This is a new note... add more if you feel like it",
+      "id": "7"
+    }
+  ]
+}

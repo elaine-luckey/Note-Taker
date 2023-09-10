@@ -1,20 +1,29 @@
 const express = require('express');
 const { createNewNote, deleteNote } = require('../notes');
 const router = express.Router();
+const notes = require('../db/db.json');
+
+//middleware for parsing incoming JSON data
+router.use(express.json());
+
+//GET /api/notes
+router.get('/', (request, response) => {
+  response.json(notes);
+});
 
 // Get all notes
 router.get('/notes', (request, response) => {
-  response.json(notesArr);
+  response.json(notes);
 });
 
 // Create a new note
-router.post('/notes', (request, response) => {
+router.post('/notes', async (request, response) => {
   try {
-    const newNote = { ...request.body, id: notesArr.length.toString() };
-    const createdNote = createNewNote(newNote, notesArr);
-    response.json(createdNote);
+    const newNote = { ...request.body, id: notes.length.toString() };
+    const createdNote = createNewNote(newNote, notes);
+    await response.json(createdNote);
   } catch (error) {
-    response.status(500).json({ error: 'Sorry, unable to create a note.' });
+    await response.status(500).json({ error: 'Sorry, unable to create a note.' });
   }
 });
 
@@ -22,10 +31,10 @@ router.post('/notes', (request, response) => {
 router.delete('/notes/:id', async (request, response) => {
   const { id } = request.params;
   try {
-    notesArr = await deleteNote(id, notesArr);
-    response.json(notesArr);
+    notesArr = await deleteNote(id, notes);
+    await response.json(notes);
   } catch (error) {
-    response.status(500).json({ error: 'Sorry, unable to delete the note.' });
+    await response.status(500).json({ error: 'Sorry, unable to delete the note.' });
   }
 });
 
