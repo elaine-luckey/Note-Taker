@@ -3,10 +3,10 @@ const { createNewNote, deleteNote } = require('../notes');
 const router = express.Router();
 const notes = require('../db/db.json');
 
-//middleware for parsing incoming JSON data
+//middleware for parsing incoming JSON data - Edward Kim helped here
 router.use(express.json());
 
-//GET /api/notes
+//GET /api/notes - Edward Kim helped here
 router.get('/', (request, response) => {
   response.json(notes);
 });
