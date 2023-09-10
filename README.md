@@ -16,6 +16,8 @@ https://elaine-luckey-note-taker-app-83d1afc08e14.herokuapp.com/
 
 ## Credits:
 Classmates at the UNC Coding Bootcamp
+ChatGPT
+Edward Kim (referenced places with help in the code comments)
 
 ## License: 
 Please refer to the LICENSE in the repo
